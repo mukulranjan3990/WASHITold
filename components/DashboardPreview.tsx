@@ -36,7 +36,7 @@ export default function DashboardPreview() {
                   <span className="w-6 h-6 rounded flex items-center justify-center bg-gradient-to-tr from-electric-blue to-soft-purple shadow-lg shadow-electric-blue/20">
                     <span className="w-2 h-2 bg-white rounded-full"></span>
                   </span>
-                  <span>WASHIT Partner</span>
+                  <span>WAshIT Partner</span>
                 </div>
                 <div className="hidden md:flex space-x-6 text-sm text-gray-400">
                   <span className="text-white relative font-medium">

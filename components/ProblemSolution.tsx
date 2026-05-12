@@ -52,7 +52,7 @@ export default function ProblemSolution() {
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <p className="text-gray-400 text-lg font-inter">
-              Say goodbye to missing socks, chemical odors, and late deliveries. WASHIT brings transparency, luxury, and trust to garment care.
+              Say goodbye to missing socks, chemical odors, and late deliveries. WAshIT brings transparency, luxury, and trust to garment care.
             </p>
           </ScrollReveal>
         </div>

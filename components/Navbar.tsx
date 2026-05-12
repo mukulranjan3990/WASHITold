@@ -52,7 +52,7 @@ export default function Navbar() {
               />
             </div>
             <span className="text-2xl font-outfit font-bold tracking-tight text-white">
-              WASH<span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-electric-blue">IT</span>
+              WAsh<span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-electric-blue">IT</span>
             </span>
           </Link>
 
@@ -68,10 +68,10 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="#login" className="text-sm font-medium text-gray-300 hover:text-white transition-colors hover:bg-white/5 px-4 py-2 rounded-lg">
+            <Link href="/auth" className="text-sm font-medium text-gray-300 hover:text-white transition-colors hover:bg-white/5 px-4 py-2 rounded-lg">
               Log In
             </Link>
-            <Link href="#book" className="relative overflow-hidden group inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-electric-blue rounded-full hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all">
+            <Link href="/book" className="relative overflow-hidden group inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-electric-blue rounded-full hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all">
               <span className="relative z-10">Book Pickup</span>
               <div className="absolute inset-0 bg-gradient-to-r from-electric-blue to-soft-purple opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </Link>
@@ -107,8 +107,8 @@ export default function Navbar() {
                 </motion.div>
               ))}
               <div className="pt-6 border-t border-white/10 flex flex-col space-y-4">
-                <Link href="#login" className="text-center py-3 text-white font-medium rounded-xl bg-white/5 border border-white/10 active:scale-95 transition-transform">Log In</Link>
-                <Link href="#book" className="text-center py-3 text-white font-semibold rounded-xl bg-gradient-to-r from-electric-blue to-soft-purple active:scale-95 transition-transform">Book Pickup</Link>
+                <Link href="/auth" className="text-center py-3 text-white font-medium rounded-xl bg-white/5 border border-white/10 active:scale-95 transition-transform">Log In</Link>
+                <Link href="/book" className="text-center py-3 text-white font-semibold rounded-xl bg-gradient-to-r from-electric-blue to-soft-purple active:scale-95 transition-transform">Book Pickup</Link>
               </div>
             </div>
           </motion.div>

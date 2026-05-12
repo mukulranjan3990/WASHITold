@@ -78,7 +78,7 @@ export default function AppShowcase() {
                         <div className="w-16 h-2 rounded-full bg-white/10"></div>
                      </div>
                      <div className="w-full h-32 rounded-xl bg-gradient-to-br from-electric-blue to-soft-purple mb-4 p-4 flex flex-col justify-end">
-                       <p className="text-white text-xs opacity-80">WASHIT Cash</p>
+                       <p className="text-white text-xs opacity-80">WAshIT Cash</p>
                        <p className="text-white font-bold text-xl">₹1,250</p>
                      </div>
                      <div className="grid grid-cols-2 gap-3 mb-4">

@@ -15,8 +15,8 @@ export default function Footer() {
               <div className="relative w-8 h-8 flex items-center justify-center rounded-lg bg-gradient-to-tr from-electric-blue to-soft-purple">
                 <Sparkles className="w-4 h-4 text-white" />
               </div>
-              <span className="text-xl font-outfit font-bold tracking-tight text-white">
-                WASH<span className="text-neon-cyan">IT</span>
+              <span className="text-2xl font-outfit font-bold tracking-tight text-white">
+                WAsh<span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-electric-blue">IT</span>
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">

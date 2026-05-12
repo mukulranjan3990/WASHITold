@@ -76,7 +76,7 @@ export default function AIFeatures() {
             <ScrollReveal>
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-soft-purple/20 border border-soft-purple/30 text-soft-purple text-xs font-bold mb-6">
                 <Sparkles className="w-3 h-3" />
-                <span>WASHIT INTELLIGENCE</span>
+                <span>WAshIT INTELLIGENCE</span>
               </div>
               <h2 className="text-3xl md:text-5xl font-outfit font-bold mb-6">Powered by Artificial Intelligence</h2>
             </ScrollReveal>

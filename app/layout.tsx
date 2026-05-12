@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  title: "WASHIT | Smart Laundry Ecosystem",
+  title: "WAshIT - Premium AI Laundry Ecosystem",
   description: "Futuristic SaaS + marketplace website for laundry platform",
 };
 
