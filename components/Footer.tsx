@@ -20,7 +20,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-              The world's smartest laundry ecosystem. We combine AI, premium logistics, and certified hygienic care to deliver an unparalleled garment care experience.
+              The world&apos;s smartest laundry ecosystem. We combine AI, premium logistics, and certified hygienic care to deliver an unparalleled garment care experience.
             </p>
             <div className="flex items-center space-x-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (

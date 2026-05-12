@@ -33,7 +33,7 @@ export default function TrustSafety() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-outfit font-bold mb-6">Built on Trust & Transparency</h2>
           <p className="text-gray-400 text-lg">
-            We've engineered safety into every step of the laundry process. From pick-up to delivery, your garments are fully protected.
+            We&apos;ve engineered safety into every step of the laundry process. From pick-up to delivery, your garments are fully protected.
           </p>
         </div>
 

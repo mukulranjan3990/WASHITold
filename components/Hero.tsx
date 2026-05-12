@@ -26,7 +26,7 @@ export default function Hero() {
           >
             <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-8">
               <Star className="w-4 h-4 text-neon-cyan" />
-              <span className="text-sm font-medium text-gray-300">India's First AI-Powered Laundry Ecosystem</span>
+              <span className="text-sm font-medium text-gray-300">India&apos;s First AI-Powered Laundry Ecosystem</span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-outfit font-bold leading-tight mb-6">

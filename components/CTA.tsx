@@ -27,7 +27,7 @@ export default function CTASection() {
               Ready to Upgrade Your <br/> Laundry Experience?
             </h2>
             <p className="text-blue-100 text-xl font-inter mb-10 max-w-2xl mx-auto">
-              Join thousands of users who have switched to India's smartest, most hygienic, and transparent laundry ecosystem.
+              Join thousands of users who have switched to India&apos;s smartest, most hygienic, and transparent laundry ecosystem.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">

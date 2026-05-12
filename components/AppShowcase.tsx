@@ -20,7 +20,7 @@ export default function AppShowcase() {
           >
             <h2 className="text-3xl md:text-5xl font-outfit font-bold mb-6">One Ecosystem. <br/><span className="text-neon-cyan">Three Native Apps.</span></h2>
             <p className="text-gray-400 text-lg mb-8">
-              Whether you're a customer tracking an order, a rider optimizing your route, or a partner managing your business—there's an app built specifically for you.
+              Whether you&apos;re a customer tracking an order, a rider optimizing your route, or a partner managing your business—there&apos;s an app built specifically for you.
             </p>
             
             <div className="space-y-6 mb-10">

@@ -39,7 +39,7 @@ export default function AIFeatures() {
           </div>
           <h2 className="text-3xl md:text-5xl font-outfit font-bold mb-6">Powered by Artificial Intelligence</h2>
           <p className="text-gray-400 text-lg font-inter">
-            We don't just wash clothes; we engineer garment care. Our proprietary AI ensures zero damage, 100% transparency, and flawless logistics.
+            We don&apos;t just wash clothes; we engineer garment care. Our proprietary AI ensures zero damage, 100% transparency, and flawless logistics.
           </p>
         </div>
 
