@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Star } from "lucide-react";
+import ScrollReveal from "./ScrollReveal";
+import MagneticButton from "./MagneticButton";
 
 export default function CTASection() {
   return (
@@ -31,15 +33,15 @@ export default function CTASection() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <button className="w-full sm:w-auto px-8 py-4 bg-white text-electric-blue font-bold rounded-full hover:bg-gray-100 transition-all shadow-xl flex items-center justify-center space-x-2 group">
-                <span>Book First Pickup</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              <MagneticButton className="w-full sm:w-auto px-8 py-4 bg-white text-electric-blue font-bold rounded-full hover:bg-gray-100 transition-all shadow-xl flex items-center justify-center space-x-2 group">
+                <span className="relative z-10">Book First Pickup</span>
+                <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
+              </MagneticButton>
               
-              <button className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition-all flex items-center justify-center space-x-2">
-                <Download className="w-5 h-5" />
-                <span>Download App</span>
-              </button>
+              <MagneticButton className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition-all flex items-center justify-center space-x-2">
+                <Download className="w-5 h-5 relative z-10" />
+                <span className="relative z-10">Download App</span>
+              </MagneticButton>
             </div>
             
             <div className="mt-10 flex items-center justify-center space-x-2 text-sm text-blue-200 font-medium">

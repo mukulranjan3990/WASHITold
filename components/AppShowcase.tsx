@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { Download, CheckCircle } from "lucide-react";
 import Image from "next/image";
+import ScrollReveal from "./ScrollReveal";
+import MagneticButton from "./MagneticButton";
 
 export default function AppShowcase() {
   return (
@@ -40,20 +42,20 @@ export default function AppShowcase() {
             </div>
 
             <div className="flex space-x-4">
-              <button className="flex items-center space-x-3 px-6 py-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-colors">
+              <MagneticButton className="flex items-center space-x-3 px-6 py-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-colors">
                 <Download className="w-5 h-5 text-white" />
                 <div className="text-left">
                   <p className="text-[10px] text-gray-400">Download on the</p>
                   <p className="text-sm font-bold text-white leading-tight">App Store</p>
                 </div>
-              </button>
-              <button className="flex items-center space-x-3 px-6 py-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-colors">
+              </MagneticButton>
+              <MagneticButton className="flex items-center space-x-3 px-6 py-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-colors">
                 <Download className="w-5 h-5 text-white" />
                 <div className="text-left">
                   <p className="text-[10px] text-gray-400">GET IT ON</p>
                   <p className="text-sm font-bold text-white leading-tight">Google Play</p>
                 </div>
-              </button>
+              </MagneticButton>
             </div>
           </motion.div>
 

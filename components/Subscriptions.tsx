@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
+import ScrollReveal from "./ScrollReveal";
+import MagneticButton from "./MagneticButton";
 
 export default function Subscriptions() {
   const plans = [
@@ -42,10 +44,14 @@ export default function Subscriptions() {
     <section className="py-24 relative bg-deep-navy">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-outfit font-bold mb-6">Smart Subscription Plans</h2>
-          <p className="text-gray-400 text-lg">
-            Put your laundry on autopilot. Subscribe once, and let us handle your wardrobe effortlessly every month.
-          </p>
+          <ScrollReveal>
+            <h2 className="text-3xl md:text-5xl font-outfit font-bold mb-6">Smart Subscription Plans</h2>
+          </ScrollReveal>
+          <ScrollReveal delay={0.1}>
+            <p className="text-gray-400 text-lg">
+              Put your laundry on autopilot. Subscribe once, and let us handle your wardrobe effortlessly every month.
+            </p>
+          </ScrollReveal>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
@@ -80,9 +86,9 @@ export default function Subscriptions() {
                 ))}
               </ul>
 
-              <button className={`w-full py-4 rounded-xl font-bold transition-all ${plan.btnStyle}`}>
+              <MagneticButton className={`w-full py-4 rounded-xl font-bold transition-all ${plan.btnStyle}`}>
                 {plan.btnText}
-              </button>
+              </MagneticButton>
             </motion.div>
           ))}
         </div>
