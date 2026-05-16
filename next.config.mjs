@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/WASHIT',
+  basePath: '/WASHITold',
   trailingSlash: true,
   images: {
     unoptimized: true,
